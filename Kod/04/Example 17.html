@@ -1,0 +1,62 @@
+<html>
+<head>
+	<title>Styling of the table</title>
+	<style>
+		#faculties {
+			font-family: "Trebushet MS", Arial, Helvetica, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		#faculties th, #faculties td {
+			border: 1px solid #ddd;
+			padding: 5px;
+		}
+		#faculties tr:nth-child(even){background-color: #f2f2f2;}
+		
+		#faculties tr:hover {background-color: #ddd;}
+		
+		#faculties th {
+			padding-top: 12px;
+			padding-bottom: 12px;
+			text-align: left;
+			background-color: #fe001a;
+			color: white;
+		}
+		
+	</style>
+</head>
+<body>
+	<table id="faculties">
+		<tr>
+			<th>Name</th>
+			<th>City</th>
+			<th>University</th>
+		</tr>
+		<tr>
+			<td>Technical Faculty</td>
+			<td>Belgrade</td>
+			<td>Singidunum</td>
+		</tr>
+		<tr>
+			<td>Faculty of Informatics and Computing</td>
+			<td>Belgrade</td>
+			<td>Singidunum</td>
+		</tr>
+		<tr>
+			<td>Technical Faculty</td>
+			<td>Nis</td>
+			<td>Singidunum</td>
+		</tr>
+		<tr>
+			<td>Technical Faculty</td>
+			<td>Novi Sad</td>
+			<td>Singidunum</td>
+		</tr>
+		<tr>
+			<td>Informatics</td>
+			<td>Nis</td>
+			<td>Singidunum</td>
+		</tr>
+	</table>
+</body>
+</html>
